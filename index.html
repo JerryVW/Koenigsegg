@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" type="text/css" href="style.css">
   <title>Koenigsegg</title>
 </head>
@@ -20,8 +24,42 @@
   </div>
 
   <div class="container">
-    <div class="header">
+    <div class="slideshow-container">
 
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <img src="images/Agera-R-2.jpg">
+        <div class="text">Caption Text</div>
+      </div>
+    
+      <div class="mySlides fade">
+        <img src="images/car-1.jpg">
+        <div class="text">Caption Two</div>
+      </div>
+    
+      <div class="mySlides fade">
+        <img src="images/Agera.jpg">
+        <div class="text">Caption Three</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="images/CCXR-Trevita.jpg">
+        <div class="text">Caption Three</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="images/Gemera.jpg">
+        <div class="text">Caption Three</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="images/car-2.jpg">
+        <div class="text">Caption Three</div>
+      </div>
+    
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
   </div>
 
